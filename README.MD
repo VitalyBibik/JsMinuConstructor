@@ -7,3 +7,6 @@
 
 ### Технологии:
 HTML, CSS, JS, Bootstrap, WebPack
+
+### Прямая ссылка:
+https://VitalyBibik.github.io/JsMinuConstructor/
