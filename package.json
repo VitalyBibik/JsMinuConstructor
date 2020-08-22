@@ -1,0 +1,26 @@
+{
+  "name": "constructor",
+  "version": "1.0.0",
+  "description": "Js constructor",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "dev": "webpack-dev-server --mode development --open --watch",
+    "deploy": "cross-env NODE_ENV=production gh-pages -d dist"
+  },
+  "keywords": [
+    "js",
+    "javascript"
+  ],
+  "author": "VitalyBibik <wital2010@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^3.6.0",
+    "file-loader": "^6.0.0",
+    "html-webpack-plugin": "^4.3.0",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
